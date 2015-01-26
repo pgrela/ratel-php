@@ -4,6 +4,9 @@
   "minimum-stability": "dev",
   "license": "proprietary",
   "version": "1.0.0",
+  "autoload": {
+    "psr-4": {"Pgrela\\": "src/Pgrela"}
+  },
   "repositories": [
     {
       "type": "package",
@@ -33,5 +36,8 @@
   ],
   "require": {
     "hessian/hessian": "2.0.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7"
   }
 }

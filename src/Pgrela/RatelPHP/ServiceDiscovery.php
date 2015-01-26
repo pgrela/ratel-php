@@ -2,9 +2,6 @@
 
 namespace Pgrela\RatelPHP;
 
-
-require './../../../vendor/autoload.php';
-
 class ServiceDiscovery {
     const DS = '/';
     const SERVICES_ROOT = '/services';
@@ -26,5 +23,3 @@ class ServiceDiscovery {
         }
     }
 }
-$serviceDiscovery = new ServiceDiscovery('localhost:2185');
-echo $serviceDiscovery->getClient('com.payu.discovery.tests.service.TestService')->hello();
