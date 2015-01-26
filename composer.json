@@ -1,0 +1,21 @@
+{
+  "name": "pgrela/ratel-php",
+  "description": "Ratel in PHP",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/pgrela/Hessian-PHP.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "pgrela",
+      "email": "patryk.grela@gmail.com"
+    }
+  ],
+  "require": {
+    "pgrela/ratel-php/HessianPHP":"dev-master"
+  }
+}
