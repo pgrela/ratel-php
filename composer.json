@@ -3,10 +3,26 @@
   "description": "Ratel in PHP",
   "minimum-stability": "dev",
   "license": "proprietary",
+  "version": "1.0.0",
   "repositories": [
     {
+      "type": "package",
+      "package": {
+        "name": "hessian/hessian",
+        "version": "2.0.3",
+        "source": {
+          "url": "http://hessianphp.googlecode.com/svn/",
+          "type": "svn",
+          "reference": "trunk"
+        },
+        "autoload": {
+          "classmap": ["src/"]
+        }
+      }
+    },
+    {
       "type": "vcs",
-      "url": "https://github.com/pgrela/Hessian-PHP.git"
+      "url": "https://github.com/pgrela/ratel-php.git"
     }
   ],
   "authors": [
@@ -16,6 +32,6 @@
     }
   ],
   "require": {
-    "pgrela/ratel-php/HessianPHP":"dev-master"
+    "hessian/hessian": "2.0.3"
   }
 }
